@@ -46,8 +46,9 @@ i.imooc-icon.icon-icon1 {
 	color: #eb6877;
 	font-size: 16px;
 }
-h5{
-	margin-bottom: 5px;
+h5 {
+  margin-bottom: 8px;
+  margin-top: 6px;
 }  
 .net_content{
 	background: #fff;
@@ -96,6 +97,16 @@ h5{
 	left: 0;
 	right: 0;
 	background: rgba(0,0,0,.8);
+	display: none;
+}
+.order2{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.8);
+	display: none;
 }
 .order_lis{
 	position: absolute;
@@ -118,7 +129,7 @@ h5{
 	font-size: 12px;
 }
 
-.order b {
+.order b,.order2 b {
   width: 15px;
   height: 15px;
   display: inline-block;
@@ -134,3 +145,52 @@ h5{
 	border-bottom: 1px solid #dedede ;
 }
 
+.select_radio ul{list-style-type: none;}
+.select_radio li{display: inline-block;}
+.select_radio input.labelauty + label{font:12px "Microsoft Yahei";}
+ul.dowebok {
+  width: 50%;
+}
+
+.numb input[type="text"] {
+  width: 35px;
+  border: 1px solid #aaaaaa;
+  background: #fff;
+  text-align: center;
+    vertical-align: top;
+}
+.numb i {
+  width: 25px;
+  height: 24px;
+  display: inline-block;
+  border: 1px solid #aaa;
+  text-align: center;
+}
+.numb span {
+  margin-right: 8px;
+  float: left;
+  margin-top: 5px;
+}
+.numb i#l,.numb i#l2 {
+  border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.numb i#r,.numb i#r2 {
+  border-left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input[type="button"] {
+  border: 1px solid #1B1B1B;
+  width: 100%;
+  color: white;
+  background: #ec6877;
+  border-radius:3px ;
+  font-weight: normal;
+  padding: 5px 0px;
+}
+.inp_but {
+  margin: 10px 0px 10px;
+}
