@@ -136,6 +136,9 @@ i.imooc-icon.icon-icon1 {
     font-size: 12px;
     
 }
+div#m_add label{
+	font-weight: normal;
+}
 .m_ad_info b{
 	display: block;
 	width:18px;
@@ -179,4 +182,25 @@ input[type="submit"] {
 }
 .but_sub {
   margin: 10px 0px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+	#text_name_l{
+		min-width: 17%;
+	}
+}
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	#text_name_l{
+		min-width: 15%;
+	}
+}
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+	#text_name_l{
+		min-width: 14%;
+	}
+}
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+	#text_name_l{
+		min-width: 13%;
+	}
 }

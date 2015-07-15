@@ -7,6 +7,8 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/font.css"/>
 		<link rel="stylesheet" type="text/css" href="css/pay_methon.css"/>
+		<link href="css/common.css" rel="stylesheet"/>
+		<link href="css/select2.css" rel="stylesheet"/>
 	</head>
 	<body>
 		<div class="page">
@@ -84,10 +86,10 @@
 					</div>
 			</div>
 			<div class="link_btn container">
-				<input class="weixin" type="button" name="" id="" value="微信安全支付" />
-				<input type="button" name="" id="" value="会员余额支付" />
-				<input type="button" name="" id="" value="店面支付" />
-				<input type="button" name="" id="" value="朋友代付" />
+			<a href=""><input class="weixin" type="button" name="" id="" value="微信安全支付" /></a>
+			<a href=""><input type="button" name="" id="" value="会员余额支付" /></a>
+			<a href=""><input type="button" name="" id="" value="店面支付" /></a>
+			<a href=""><input type="button" name="" id="" value="朋友代付" /></a>
 							</form>
 			</div>
 			<div id="">
@@ -97,27 +99,35 @@
 		<div class="m_address_info" id="m_add">
 			<div class="m_rows container">
 				<div class="m_ad_info">
-				<span id="">收货地址</span><b id="m_close" class="pull-right"></b>
-			</div>
+					<span id="">收货地址</span><b id="m_close" class="pull-right"></b>
+				</div>
 				<form action="" method="post">
 					<div class="Receipt_man ">
-						<span class="clo-xs-3 pull-left" style="min-width: 56px;">收货人</span>
-						<input type="text" placeholder="名字" class="col-xs-8 col-xs-offset-1 pull-left " name="" id="" value="" />
+						<label for="text_name" class="clo-xs-3 pull-left" id="text_name_l">收货人</label>
+						<input type="text" placeholder="名字" class="col-xs-8 col-xs-offset-1 pull-left " name="" required pattern="[A-Za-z]{4,16}|[\u4e00-\u9fa5]{2,8}" id="text_name" value="" />
 					</div>
 					<div class="m_ph">
-						<span class="clo-xs-3 pull-left">联系电话</span>
-						<input placeholder="手机或固话" class="col-xs-8 col-xs-offset-1 pull-left " type="tel" name="" id="" value="" />
+						<label for="tel_phone" class="clo-xs-3 pull-left">联系电话</label>
+						<input placeholder="手机" class="col-xs-8 col-xs-offset-1 pull-left" required pattern="^(13[0-9]|14[0-9]|15[0-9]|18[0-9]|17[0-9])\d{8}$" type="tel" name="" id="tel_phone" value="" />
 					</div>
 					<div class="m_addre">
-						<span class="clo-xs-3 pull-left">选择地区</span>
+						<label for="sel_add" class="clo-xs-3 pull-left">选择地区</label>
+						<div class="main">
+						    <select id="loc_province" required style="width:75px;margin-left:3px">
+						    </select>
+						    <select id="loc_city" required style="width:75px; margin-left: 3px">
+						    </select>
+						    <select id="loc_town" required style="width:75px;margin-left: 3px">
+						    </select>  
+						</div>
 					</div>
 					<div class="minute_addre">
-						<span class="clo-xs-3 pull-left">详细地址</span>
-						<input placeholder="街道门牌信息" class="col-xs-8 col-xs-offset-1 pull-left " type="text" name="" id="" value="" />
+						<label for="text_info" class="clo-xs-3 pull-left">详细地址</label>
+						<input placeholder="街道门牌信息" required class="col-xs-8 col-xs-offset-1 pull-left " type="text" name="" id="text_info" value="" />
 					</div>
 					<div class=" zip_code">
-						<span class="clo-xs-3 pull-left">邮政编码</span>
-						<input placeholder="邮政编码(选填)" class="col-xs-8 col-xs-offset-1 pull-left" type="text" name="" id="" value="" />
+						<label for="text_code" class="clo-xs-3 pull-left">邮政编码</label>
+						<input placeholder="邮政编码(选填)" class="col-xs-8 col-xs-offset-1 pull-left" type="text" name="" id="text_code" value="" />
 					</div>
 					<div class="but_sub">
 						<input type="submit" value="保&nbsp;存"/>
@@ -128,6 +138,10 @@
 		</div>
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/area.js"></script>
+		<script type="text/javascript" src="js/location.js"></script>
+		<script type="text/javascript" src="js/select2.js"></script>
+		<script type="text/javascript" src="js/select2_locale_zh-CN.js"></script>
 		<script type="text/javascript">
 			window.onload = function(){
 				var oHead = document.getElementById("m_header");
