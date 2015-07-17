@@ -1,0 +1,90 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,a,span{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #f6f6f6;
+}
+.page{
+	background: #f6f6f6;
+	  padding-bottom: 50px;
+}
+.nav li{
+	text-align: center;
+}
+.nav li a{
+	color: #434343;
+	font-weight: 600;
+}
+.nav li a.active{
+	border-bottom: 2px solid #ae9557;
+	color: #ae9557;
+	padding-bottom: 3px;
+	width: 18%;
+}
+a.col-xs-3.col-xs-offset-1 {
+  margin-left: 14%;
+}
+.carousel-indicators {
+  bottom: 0px;
+}
+a{
+	color: #1b1b1b;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  background: none;
+}
+/*.carousel-indicators li {
+  width: 7px;
+  height: 7px;
+}
+.carousel-indicators .active {
+  width: 9px;
+  height: 9px;
+}*/
+ul.nav.rows {
+  border-bottom: 1px solid #c9c9c9;
+  /* background: #fff;*/
+}
+.product_lis {
+  background-color: #fff;
+    overflow: hidden;
+      border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 10px;
+}
+.product_exhibition{
+	position: relative;
+}
+i.imooc-icon.icon-icon1 {
+  font-size: 14px;
+  color: white;
+}
+
+div#product_price {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  width: 20%;
+  height: auto;
+  background: #989a9b;
+    text-align: center;
+}
+div#product_price span {
+  color: white;
+  font-size: 18px;
+    margin-left: 3%;
+}
+.product_exhibition_lis {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.product_exhibition_lis  div{
+	padding: 0;
+}
+.product_describe.container {
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

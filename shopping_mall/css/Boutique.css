@@ -1,0 +1,94 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,a,span{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #f6f6f6;
+}
+.page{
+	background: #f6f6f6;
+	  padding-bottom: 50px;
+}
+.nav li{
+	text-align: center;
+}
+.nav li a{
+	color: #434343;
+	font-weight: 600;
+}
+.nav li a.active{
+	border-bottom: 2px solid #ae9557;
+	color: #ae9557;
+	padding-bottom: 3px;
+	width: 18%;
+}
+a.col-xs-3.col-xs-offset-1 {
+  margin-left: 14%;
+}
+.carousel-indicators {
+  bottom: 0px;
+}
+a{
+	color: #1b1b1b;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  background: none;
+}
+/*.carousel-indicators li {
+  width: 7px;
+  height: 7px;
+}
+.carousel-indicators .active {
+  width: 9px;
+  height: 9px;
+}*/
+ul.nav.rows {
+  border-bottom: 1px solid #c9c9c9;
+   background: #fff;
+}
+.Boutique_info.clearfix {
+  margin-bottom: 10px;
+    border-bottom: 1px solid #c9c9c9
+}
+.Boutique_lis {
+  border-bottom: 1px solid #c9c9c9;
+}
+.Boutique_describe.container {
+  background-color: #fff;
+  /* margin: 10px 0px; */
+  /* padding: 10px; */
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.Boutique_describe.container p{
+	color: #434343;
+	font-size: 12px;
+}
+.Boutique_describe.container p span{
+	color: #ab9358;
+}
+.Boutique_price.clearfix {
+  margin-top: 8px;
+}
+.buy_btn {
+  width: 70px;
+  height: 25px;
+    margin-top: 5px;
+}
+i.imooc-icon.icon-icon1 {
+  color: #ec6941;
+  font-size: 20px;
+  font-weight: 600;
+}
+.pull-left.price_info span {
+  color: #ec6941;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+small{
+	margin-left: 8px;
+	color: #898989;
+}
