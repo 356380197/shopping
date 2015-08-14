@@ -1,0 +1,151 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,a,span{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #f6f6f6;
+}
+.page{
+	background: #f6f6f6;
+	  padding-bottom: 50px;
+}
+.nav li{
+	text-align: center;
+}
+.nav li a{
+	color: #434343;
+	font-weight: 600;
+}
+.nav li a.active{
+	border-bottom: 2px solid #ae9557;
+	color: #ae9557;
+	padding-bottom: 3px;
+	width: 18%;
+}
+a.col-xs-3.col-xs-offset-1 {
+  margin-left: 14%;
+}
+.carousel-indicators {
+  bottom: 0px;
+}
+a{
+	color: #1b1b1b;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  background: none;
+}
+/*.carousel-indicators li {
+  width: 7px;
+  height: 7px;
+}
+.carousel-indicators .active {
+  width: 9px;
+  height: 9px;
+}*/
+ul.nav.rows {
+  border-bottom: 1px solid #c9c9c9;
+    background: #fff;
+}
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{
+	font:12px/180% Arial,
+	Helvetica, sans-serif,
+	"新宋体";
+	}
+a:hover{ text-decoration:none;}
+.addWrap{ 
+	position:relative; 
+	width:100%;
+	background:#fff;
+	margin:0; 
+	padding:0;
+	}
+.addWrap .swipe{
+	overflow: hidden;
+	visibility: hidden;
+	position:relative;
+	}
+.addWrap .swipe-wrap{
+	overflow:hidden;
+	position:relative;
+	}
+.addWrap .swipe-wrap > div {
+	float: left;
+	width: 100%;
+	position:relative;
+	}
+#position{
+	 position:absolute; 
+	 bottom:0; right:38%; 
+	 padding-right:8px; margin:0;
+	  opacity: 0.4; width:100%; 
+	  filter: alpha(opacity=50);
+	  text-align:right;
+	  }
+#position li{
+	width:10px;
+	height:10px;
+	margin:0 2px;
+	display:inline-block;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background-color:#AFAFAF;}
+#position li.cur{background-color:#FF0000;}
+.classify.rows {
+  overflow: hidden;
+  background: #fff;
+  padding-top: 8px;
+}
+.classify.rows {
+	text-align: center;
+	border-bottom: 1px solid #c9c9c9;
+	  padding-bottom: 3px;
+}
+.classify.rows img{
+	margin-bottom: 5px;
+}
+.commodity_info{
+	margin-top: 15px;
+	border-top:1px solid #c9c9c9 ;
+	background: white;
+}
+.col-xs-4.col-xs-offset-1.commodity_img {
+  padding: 0;
+}
+.col-xs-5.col-xs-offset-1.descrip {
+  padding: 0;
+  margin-left: 5%;
+  width: 45%;
+}
+.col-xs-5.col-xs-offset-1.descrip p {
+  margin-top: 12px;
+}
+.shop{
+	overflow: hidden;
+	margin-top: 12px;
+	margin-bottom: 10px;
+}
+.shop .but {
+  display: inline-block;
+}
+.shop button {
+  border: 0;
+  background: #ae9557;
+  color: white;
+  padding: 2px 8px;
+}
+.shop span {
+  color: #ec6877;
+  font-size: 16px;
+}
+.commodity_1{
+	border-bottom: 1px solid #c9c9c9;
+	overflow: hidden;
+}
+
+i.imooc-icon.icon-icon1 {
+  font-size: 18px;
+}

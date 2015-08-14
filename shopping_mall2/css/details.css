@@ -1,0 +1,196 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,a,span{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background: #f6f6f6;
+}
+.page{
+	background: #f6f6f6;
+	  padding-bottom: 50px;
+}
+a{
+	color: #1b1b1b;
+	font-weight: 600;
+}
+.header{
+	background: #fff;
+}
+.header .nav{
+	border-bottom: 1px solid #c9c9c9;;
+}
+.nav li a.active{
+	border-bottom: 2px solid #ae9557;
+	color: #ae9557;
+	padding-bottom: 3px;
+	width: 75%;
+}
+li.col-xs-3.col-xs-offset-1 {
+  margin-left: 14%;
+}
+.nav li.col-xs-3 {
+  padding: 0;
+}
+.nav li.col-xs-3 a {
+  text-align: center;
+}
+.shop_img {
+  background: #fff;
+}
+
+i.imooc-icon.icon-icon1 {
+  font-size: 16px;
+  color: #eb6877;
+}
+.shop_img span{
+	color: #eb6877;
+	font-size: 16px;
+}
+h5 {
+  margin-bottom: 8px;
+  margin-top: 6px;
+}  
+.net_content{
+	background: #fff;
+	border-bottom: 1px solid  #dedede;
+	border-top: 1px solid  #dedede;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 13px;
+}
+.net_content span{
+	color: #a0a0a0;
+}
+.details_img {
+  margin-top: 10px;
+  border-top: 1px solid #dedede;
+}
+.img_lis img{
+	margin-bottom: 5px;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.col-xs-6.buy {
+  height: 35px;
+  background: #ec6877;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+    font-weight: normal;
+}
+.col-xs-6.give{
+	 height: 35px;
+  background:#434343;
+  color: white;
+  line-height: 35px;
+  text-align: center;
+    font-weight: normal;
+}
+/*order*/
+.order{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.8);
+	display: none;
+}
+.order2{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.8);
+	display: none;
+}
+.order_lis{
+	position: absolute;
+	bottom: 0;
+	background: #fff;
+}
+
+.col-xs-6.info,.col-xs-4.info_img {
+  padding: 0;
+}
+.col-xs-6.info{
+	  margin-top: 12px;
+  margin-bottom: 5px;
+}
+.col-xs-6.info span{
+	color: #eb6877;;
+	font-size: 16px;
+}
+.info p{
+	font-size: 12px;
+}
+
+.order b,.order2 b {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url(../images/icon_03.png) no-repeat;
+  background-size:100% ;
+  margin-top: 10px;
+}
+.order_lis_top {
+  overflow: hidden;
+  border-bottom: 1px solid #dedede;
+}
+.select_radio{
+	border-bottom: 1px solid #dedede ;
+}
+
+.select_radio ul{list-style-type: none;}
+.select_radio li{display: inline-block;}
+.select_radio input.labelauty + label{font:12px "Microsoft Yahei";}
+ul.dowebok {
+  width: 50%;
+}
+
+.numb input[type="text"] {
+  width: 35px;
+  border: 1px solid #aaaaaa;
+  background: #fff;
+  text-align: center;
+    vertical-align: top;
+}
+.numb i {
+  width: 25px;
+  height: 24px;
+  display: inline-block;
+  border: 1px solid #aaa;
+  text-align: center;
+}
+.numb span {
+  margin-right: 8px;
+  float: left;
+  margin-top: 5px;
+}
+.numb i#l,.numb i#l2 {
+  border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.numb i#r,.numb i#r2 {
+  border-left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input[type="button"] {
+  border: 1px solid #1B1B1B;
+  width: 100%;
+  color: white;
+  background: #ec6877;
+  border-radius:3px ;
+  font-weight: normal;
+  padding: 5px 0px;
+}
+.inp_but {
+  margin: 10px 0px 10px;
+}
